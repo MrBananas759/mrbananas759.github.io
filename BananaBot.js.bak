@@ -1,1 +1,7 @@
-var autoClick = setInterval(function() { Game.ClickCookie(); }, 1000);
+var autoClick = false;
+var clickGolden = false;
+
+
+if (autoClick) {
+	Game.ClickCookie();
+}
