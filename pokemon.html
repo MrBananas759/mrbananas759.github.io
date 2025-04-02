@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/poke-table.css">
+    <title>AH - Pokemon</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <h1 class="logo">AH</h1>
+    
+            <ul class="nav-side">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="active">
+                    <a href="/pokemon.html">Pokemon</a>
+                </li>
+                <li>
+                    <a href="/minecraft.html">Minecraft</a>
+                </li>
+                <li>
+                    <a href="/games.html">Games</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <header>
+                <h1>POKEMON</h1>
+
+            </header>
+
+            <main>
+                <div class="tabs-container">
+                    <div class="poke-nav">
+                        <ul class="tabs">
+                            <li class="active">
+                                <a href="#type-chart">Type Chart</a>
+                            </li>
+                            <li>
+                                <a href="#party-pokemon">Party Pokemon</a>
+                            </li>
+                            <li>
+                                <a href="#pokedex">Pokedex</a>
+                            </li>
+                        </ul>
+
+                        <select class="poke-list">
+                            <option>National Dex</option>
+
+                            <option>Pokemon Red - Blue - Yellow</option>
+                            
+                            <option>Pokemon Gold - Silver - Crystal</option>
+                        
+                            <option>Pokemon Ruby - Sapphire - Emerald</option>
+                            <option>Pokemon Fire Red - Leaf Green</option>
+                        
+                            <option>Pokemon Diamond - Pearl - Platinum</option>
+                            <option>Pokemon Heart Gold - Soul Silver</option> 
+                        
+                            <option>Pokemon Black - White</option>
+                            <option>Pokemon Black 2 - White 2</option>
+                        
+                            <option>Pokemon X - Y</option>
+                            <option>Pokemon Omega Ruby - Alpha Sapphire</option>
+                        
+                            <option>Pokemon Sun - Moon</option>
+                            <option>Pokemon Ultra Sun - Ultra Moon</option>
+                            <option>Pokemon Let's Go Pikachu - Let's Go Eevee</option>
+                        
+                            <option>Pokemon Sword - Sheild</option>
+                            <option>Pokemon Legends Arceus</option>
+                            <option>Pokemon Brilliant Diamond - Shining Pearl</option>
+                        
+                            <option>Pokemon Scarlet - Violet</option>
+                        </select>
+                    </div>
+
+                    <div class="tabs_panels">
+                        <div id="type-chart">
+                            <table class="poke-table"></table>
+
+                            <div class="chart-party-list">
+                                <div class="party-pokemon" data="slot-one">
+                                    <img src="./images/blank.png">
+                                    <label></label>
+                                </div>
+                                <div class="party-pokemon" data="slot-two">
+                                    <img src="./images/blank.png">
+                                    <label></label>
+                                </div>
+                                <div class="party-pokemon" data="slot-three">
+                                    <img src="./images/blank.png">
+                                    <label></label>
+                                </div>
+                                <div class="party-pokemon" data="slot-four">
+                                    <img src="./images/blank.png">
+                                    <label></label>
+                                </div>
+                                <div class="party-pokemon" data="slot-five">
+                                    <img src="./images/blank.png">
+                                    <label></label>
+                                </div>
+                                <div class="party-pokemon" data="slot-six">
+                                    <img src="./images/blank.png">
+                                    <label></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="party-pokemon">
+                            <h1>Party Pokemon</h1>
+                        </div>
+
+                        <div id="pokedex">
+                            <h1>Pokedex</h1>
+                        </div>
+                    </div>
+                    
+                </main>
+            </div>
+        </div>
+    </div>
+
+    
+    <script type="module" src="index.js"></script>
+</body>
+</html>
